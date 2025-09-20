@@ -147,24 +147,7 @@ shap_analyzer.plot_feature_importance()
 3. **Clinical interpretability** through SHAP analysis reveals key predictive patterns
 4. **Balanced detection** across all cognitive subgroups, including minority PDD class
 
-## Repository Structure
 
-```
-├── src/
-│   ├── preprocessing.py          # Data preprocessing utilities
-│   ├── two_stage_model.py        # Main two-stage classifier
-│   ├── feature_selection.py     # SHAP-based feature selection
-│   ├── interpretability.py      # SHAP analysis and visualization
-│   └── evaluation.py            # Model evaluation metrics
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_model_training.ipynb
-│   └── 03_results_analysis.ipynb
-├── figures/                      # Generated plots and figures
-├── requirements.txt              # Python dependencies
-├── README.md                     # This file
-└── LICENSE                       # License information
-```
 
 ## Citation
 
